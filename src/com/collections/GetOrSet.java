@@ -16,7 +16,6 @@ public class GetOrSet {
 		obj.setA(19);
 		int c = obj.getA();
 		System.out.println(c);
-		
 
 	}
 
