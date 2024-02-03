@@ -1,7 +1,5 @@
 package com.collections;
 
-
-
 public class Student {
 
 	int rollno;
