@@ -1,24 +1,27 @@
 package com.collections;
 
-interface A{
-	void a() ;
-		
-}
-interface B {
-	void b() ;
-		
+interface A {
+	void a();
+
 }
 
-class D implements A,B  {
-public void a() {
-	System.out.println("Method a");
-	
+interface B {
+	void b();
+
 }
-public void b() {
-	System.out.println("Method b");
-	
+
+class D implements A, B {
+	public void a() {
+		System.out.println("Method a");
+
+	}
+
+	public void b() {
+		System.out.println("Method b");
+
+	}
 }
-}
+
 public class Interface {
 
 	public static void main(String[] args) {
@@ -26,7 +29,6 @@ public class Interface {
 		obj.a();
 		obj.b();
 
-		
 	}
 
 }
