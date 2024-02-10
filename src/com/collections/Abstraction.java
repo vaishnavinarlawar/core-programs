@@ -1,15 +1,16 @@
 package com.collections;
 
-abstract class Demo{ 
+abstract class Demo {
 
-	 abstract void ex();
+	abstract void ex();
 
+}
+
+class implementation extends Demo {
+	void ex() {
+		System.out.println("abstract");
 	}
-	class implementation extends  Demo{
-		 void ex() {
-			System.out.println("abstract");
-		}
-	}
+}
 
 public class Abstraction {
 
