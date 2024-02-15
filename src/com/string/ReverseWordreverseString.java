@@ -1,7 +1,7 @@
 package com.string;
 
 public class ReverseWordreverseString {
-	
+
 	public static String rev(String s) {
 		String s1 = "";
 		for (int a = s.length() - 1; a >= 0; a--) {
@@ -27,8 +27,5 @@ public class ReverseWordreverseString {
 
 		System.out.println(result);
 	}
-
-
-
 
 }
