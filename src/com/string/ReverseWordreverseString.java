@@ -1,6 +1,6 @@
 package com.string;
 
-public class ReverseWords2 {
+public class ReverseWordreverseString {
 	
 	public static String rev(String s) {
 		String s1 = "";
@@ -10,9 +10,8 @@ public class ReverseWords2 {
 		return s1;
 	}
 
-
 	public static void main(String[] args) {
-		
+
 		String str = "Vaishnavi is  cute girl";
 
 		String[] arr = str.split(" ");
@@ -31,7 +30,5 @@ public class ReverseWords2 {
 
 
 
-		
-	
 
 }
