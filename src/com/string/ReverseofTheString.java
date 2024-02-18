@@ -18,7 +18,7 @@ public class ReverseofTheString {
 		String[] s1 = s.split(" ");
 
 		for (int i = 0; i <= s1.length - 1; i++) {
-//			System.out.println(s1[i]);
+			// System.out.println(s1[i]);
 
 			String st = s1[i];
 			String strev = ReversoftheString(st);
