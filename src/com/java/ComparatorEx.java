@@ -23,43 +23,54 @@ System.out.println(l1);
 	}
 
 }
-class ComparatorEx1 implements Comparable<ComparatorEx1>{
-	public static Comparator<ComparatorEx1>comp= Comparator.comparing(ComparatorEx1::getName).thenComparing(ComparatorEx1::getType).thenComparing(ComparatorEx1::getCapacity);
+
+class ComparatorEx1 implements Comparable<ComparatorEx1> {
+	public static Comparator<ComparatorEx1> comp = Comparator.comparing(ComparatorEx1::getName)
+			.thenComparing(ComparatorEx1::getType).thenComparing(ComparatorEx1::getCapacity);
 
 	@Override
 	public int compareTo(ComparatorEx1 o) {
-		int res =o.getName().compareTo(this.getName());
-		
-		return res!=0 ?res:o.getType().compareTo(this.getType());
+		int res = o.getName().compareTo(this.getName());
+
+		return res != 0 ? res : o.getType().compareTo(this.getType());
 	}
-	String name,type,capacity;
+
+	String name, type, capacity;
+
 	public String getName() {
 		return name;
 	}
+
 	public void setName(String name) {
 		this.name = name;
 	}
+
 	public String getType() {
 		return type;
 	}
+
 	public void setType(String type) {
 		this.type = type;
 	}
+
 	public String getCapacity() {
 		return capacity;
 	}
+
 	public void setCapacity(String capacity) {
 		this.capacity = capacity;
 	}
+
 	public ComparatorEx1(String name, String type, String capacity) {
 		super();
 		this.name = name;
 		this.type = type;
 		this.capacity = capacity;
 	}
+
 	@Override
 	public String toString() {
 		return "ComparatorEx1 [name=" + name + ", type=" + type + ", capacity=" + capacity + "]";
 	}
-	
+
 }

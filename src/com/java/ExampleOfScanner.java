@@ -10,7 +10,7 @@ public class ExampleOfScanner {
 		System.out.println("enter two numbers");
 		int a = aa.nextInt();
 		int b = aa.nextInt();
-		int c = a+b;
+		int c = a + b;
 		System.out.println(c);
 	}
 
