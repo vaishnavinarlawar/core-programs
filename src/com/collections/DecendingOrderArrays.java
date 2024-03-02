@@ -3,7 +3,7 @@ package com.collections;
 public class DecendingOrderArrays {
 
 	public static void main(String[] args) {
-		
+
 		int[] arr = new int[] { 5, 2, 8, 7, 1 };
 		int temp = 0;
 		// Displaying elements of original array
