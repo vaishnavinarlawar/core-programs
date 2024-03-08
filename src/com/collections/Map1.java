@@ -10,6 +10,7 @@ public class Map1 {
 		h1.put(2, "Rudrani");
 		h1.put(3, "Swarali");
 		h1.put(4, "Ram");
+		h1.put(5, "Rutuja");
 
 		/*
 		 * for(Map.Entry <Integer,String> e: h1.entrySet()) {
